@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, sans-serif; /* font는 Arial로. 없으면 두번째꺼로 */
+    background-color: mintcream;
+    padding: 20px;
+    color: blueviolet;
+}
+h2{
+    color: aquamarine;
+    font-size: 1.5em; /* em : 부모 요소에 따른 상대적인 크기 16px * 1.5 = 24px */
+}
+a{
+    color: darkcyan;
+    text-decoration: none; /* 링크 밑줄 제거 */
+    font-weight: bold; /* 폰트 두께를 두껍게 설정 */
+}
+
+a:hover{ /* 동적 가상 클래스 선택자 - 마우스가 올라가면 동적으로 밑줄이 그어진다. */
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(113, 113, 113);
+}
+
+a:link{
+    color: rgb(254, 132, 132);
+}
